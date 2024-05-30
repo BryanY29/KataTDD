@@ -10,6 +10,5 @@ class TestConjunto(unittest.TestCase):
         conjunto = Conjunto([5])
         self.assertEqual(5, conjunto.promedio())
 
-
 if __name__ == '__main__':
     unittest.main()
